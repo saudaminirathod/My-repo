@@ -1,0 +1,17 @@
+@isTest
+public class CandidateTriggerHandlerTests {
+    public static testmethod void checkJob()
+    {
+       /*Account newAccount = new Account(Name='salesforce');
+        insert newAccount;
+        List<Contact> newcontact = new List<Contact>();
+        newcontact.add(new Contact(Last Name='rathod',Accountid=newAccount.id));
+        insert newcontact;*/
+       // Job__c job1 = new Job__c(Name='Developer',No_of_Postion__c=4,Manager__c='manager');
+		//insert job1;
+       // System.debug('job'+job1);
+        candidate__c Candidate=new candidate__c(Name='Ani',First_Name__c='Anu',Last_Name__c='kale',Email__c='Anu@gmail.com',Application_Date__c=Date.today(),Expected_Salary__c=10000);
+        insert Candidate;
+       
+    }
+}
